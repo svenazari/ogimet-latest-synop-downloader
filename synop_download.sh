@@ -18,5 +18,5 @@ if [ -s "$FILE" ]; then #check if file which needs to be copied exist and has si
   cp $FILE /home/$(whoami)/other_data/saved_synop/$folim/$folim2/synop_hr_$dattim.txt
   rm $FILE
 else
-  exit
+  rm "$FILE" ; exit
 fi
