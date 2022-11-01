@@ -2,7 +2,6 @@
 #Made by: SvenAzari
 
 import requests
-import re
 import os
 import datetime
 from datetime import timezone
