@@ -7,7 +7,7 @@ wait #wait till all operations are done and then continue
 
 folimy=$(date -u +"%Y") #folder name for year
 folim=$(date -u +"%m") #folder name for month
-folim2=$(date -u +"%d") #folder name for month and day
+folim2=$(date -u +"%d") #folder name for day
 
 #check if all folder exist - if do not, create them
 [[ ! -d /home/$(whoami)/other_data/saved_synop/$folimy ]] && mkdir /home/$(whoami)/other_data/saved_synop/$folimy
