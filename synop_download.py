@@ -74,7 +74,7 @@ while True:
             synopprint = " ".join(synopx)
 #            print(synopprint.replace("=",'')) #print scraped lines on screen - put under comment if you won't use this
             syn.write(synopprint.replace("=",'')) #write scraped lines to file - uncomment this to use (2/4)
-            syn.write('\n') #(3/4)
+            syn.write('==\n') #(3/4)
             synopx.clear()
             c += 1
             continue
