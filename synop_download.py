@@ -19,7 +19,7 @@ url = "https://ogimet.com/ultimos_synops2.php?lang=en&estado=Croa&fmt=txt&Send=S
 r = requests.get(url, allow_redirects=True)
 open('latest_synop.txt', 'wb').write(r.content) #writing content of webpage into file
 
-#scraping dana
+#scraping data
 
 synop = open ("latest_synop.txt") #openning file where content of webpage is saved
 
