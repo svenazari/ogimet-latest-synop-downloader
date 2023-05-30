@@ -4,6 +4,7 @@
 import requests
 import re
 import os
+import sys
 import datetime
 from datetime import timezone
 
@@ -90,4 +91,4 @@ syn.close() #closing file where lines are written - uncomment this to use (4/3)
        
 os.remove("latest_synop.txt") #removing file where web page content is written
         
-
+sys.exit (0)
